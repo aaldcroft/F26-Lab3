@@ -17,9 +17,13 @@ Create a third variable called mylist. This variable should contain all elements
 Remember you can use + to concatenate lists, just like we did for strings.
 Print the variable mylist.
 '''
+#fist list of numbers (odd)
+numbers= [1,5,7]
 
-numbers= [1,2,3]
-mixed_list = [1,"five",2.5,"false"]
+#second list of number (even)
+mixed_list = [0,6,4,]
+
+#third list where bot lists are concatenated.
 my_list = numbers+mixed_list
 
 print(my_list)
