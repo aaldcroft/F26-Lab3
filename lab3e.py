@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Abby Aldcroft 
+# Date:Oct 1
 # Purpose:
 # Usage: ./lab3e.py
 
@@ -17,4 +17,21 @@
 - Now use a` for loop` and iterate over this list and print each element on a separate line. 
 '''
 
-students = [Ama, Elina, Maija, Daniel, Ibrahim]
+#create a list
+students = [ 'Ama', 'Elina', 'Maija', 'Daniel', 'Ibrahim' ]
+
+#print list
+print(students)
+
+#insert name Maggie into list at ( index 1, element)
+students.insert( 1 , 'Maggie' )
+
+#print list
+print(students)
+
+#using a for loop, we want to print item (i) in the list (students)
+# for every i in students print in a loop.
+for i in students:
+    print (i)
+    
+    
