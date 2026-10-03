@@ -14,11 +14,12 @@ then the list is changed to
 11 9 4 7 9 16 9 4 1
 '''
 
+#first sequence of numbers
 sequence = [2,4,6,8,10,12]
 
 print (sequence)
 
-#will reverse the list 
+#this will reverse sequence of numbers in the list 
 sequence.reverse()
 
 print (sequence)
