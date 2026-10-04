@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Abby Aldcroft 
+# Date:Oct 1 2026
 # Purpose: 
 # Usage: ./lab3f.py
 
@@ -23,32 +23,24 @@ matrix = [
 [7, 8, 9]
 ]
 
+# element 5 is = to location 
 element5 = matrix[1][1]
+
+#print location 
 print("the element at second row second column is ",matrix[1][1])
 
-for i in matrix:
-    print(i)
-
-for i in range(3):
-    print(matrix[i])
-
-
-'''
+# element 2 is = to location
 element2 = matrix [0][1]
+#print location
 print("The element at first row second column is ",matrix[0][1])
 
-for i in matrix:
-    print(i)
 
-for i in range(2):
-    print(matrix[i])
-
+#element 9 is = to location
 element9 = matrix [2][2]
-print ("The element at the last row last column is : ",matrix[2][2])
+#print location
+print ("The element in the third column third row is : ",matrix[2][2])
 
+#for loop to print the list items in the matrix , it will print the first row, then second then thrid
 for i in matrix:
-    print(i)
-
-for i in range(3):
-    print(matrix[i])
-'''
+    print (i)
+ 
