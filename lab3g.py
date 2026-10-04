@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author:Abby Aldcroft
+# Date:Oct 1 2026
 # Purpose: 
 # Usage: ./lab3g.py
 
@@ -16,14 +16,17 @@ Write a program that reads values from standard input from user(using input func
 - Multiply the numbers by 10
 - Print out the list in reverse order
 '''
-
+#empty list
 numList = []
 
-while len(numList) <= 6: 
-    num = int(input("please enter a number: "))
-    num=num*10
-    numList.append(num)
+#while loop 
+while len(numList) <= 6: # while there are less than or = to 6 numbers the following happens; 
+    num = int(input("please enter a number: ")) #user is prompted for a number
+    num=num*10 #the number is multiplied by 10
+    numList.append(num) # that number is added to end of list
 
-print(numList)
+#print out the list
+print(numList) 
 
+#print it in reverse order
 print(numList[::-1])
